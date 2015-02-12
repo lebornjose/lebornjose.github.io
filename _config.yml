@@ -18,7 +18,7 @@ email:            lebornjose@gmail.com
 twitter_username: leborn
 github_username:  lebornjose
 timezone:         China/ShangHai
-subscribe:        http://feed.leborn.me
+subscribe:        http://leborn.me/atom.xml
 exclude:          [ README.md, newpost.rb, CNAME ]
 
 author:
