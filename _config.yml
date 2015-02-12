@@ -12,13 +12,13 @@ permalink:        /:year/:month/:day/:title
 title:            Spuer xing
 description:      '<a href="https://twitter.com/lebornjose" target="_blank">@lebornjose</a>'
 baseurl:          /
-url:              http://blog.leborn.me
+url:              http://leborn.me
 domain:           leobrn.me
 email:            lebornjose@gmail.com
 twitter_username: leborn
 github_username:  lebornjose
 timezone:         China/ShangHai
-subscribe:        http://feed.ztpala.com
+subscribe:        http://feed.leborn.me
 exclude:          [ README.md, newpost.rb, CNAME ]
 
 author:
