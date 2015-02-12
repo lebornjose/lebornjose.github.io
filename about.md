@@ -16,7 +16,7 @@ permalink: /about/
 
 ### > 只有活下去，才配谈梦想，
 
- <img src="img/IMG_0587.JPG" alt="Super xing">
+ <img src="/img/IMG_0587.JPG" alt="Super xing">
 
 + 喜欢阅读，喜欢编程， 主要是坐WEB来发，
 
