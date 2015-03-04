@@ -15,7 +15,7 @@ baseurl:          /
 url:              http://leborn.me
 domain:           leborn.me
 email:            lebornjose@gmail.com
-twitter_username: leborn
+twitter_username: lebornjose
 github_username:  lebornjose
 timezone:         China/ShangHai
 subscribe:        http://leborn.me/atom.xml
