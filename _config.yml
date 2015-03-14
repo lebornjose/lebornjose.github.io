@@ -9,7 +9,7 @@ gems:
 permalink:        /:year/:month/:day/:title
 
 # Setup
-title:            Spuer xing
+title:            Super xing
 description:      '<a href="https://twitter.com/lebornjose" target="_blank">@lebornjose</a>'
 baseurl:          /
 url:              http://leborn.me
