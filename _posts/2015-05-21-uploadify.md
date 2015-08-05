@@ -17,8 +17,8 @@ categories:
 
  前端代码:前端代码在官网上和网页上搜索，都可以找到，但这里我还是贴出来吧！
 
-        <script type="text/javascript" src="/res/dev/debug/js/base/jquery.uploadify.min.js"></script>
-         <link type="text/css" rel="stylesheet" href="/res/dev/debug/css/base/uploadify.css">
+     <script type="text/javascript" src="/res/dev/debug/js/base/jquery.uploadify.min.js"></script>
+     <link type="text/css" rel="stylesheet" href="/res/dev/debug/css/base/uploadify.css">
       <script type="text/javascript">
       $(function () {
        $('#file_upload').uploadify({
@@ -29,7 +29,7 @@ categories:
       }
     });
     </script>
-  <input type="file" id="file_upload" name="file_upload" />
+       <input type="file" id="file_upload" name="file_upload" />
 
 后台C# 接受并保存文件
 
@@ -65,12 +65,14 @@ categories:
            <script type="text/javascript" src="js/jquery.uploadify
            .min.js/<?php echo rand(0,9999);?>"
 
+
 2.在uploadify.js后面加上一个随机时间以防止使用chrome的缓存，其实这个办法并不能完全解决崩溃问题，比如在uplodify页面进入其他页页后，再点击后退返回到这个uploadify页面，同样会出现崩溃问题。
+
 
 + 其实如果不用缓存每次去请求服务器其实是个很浪费的事，关键是这样做根本就没有解决这个问题。真正的解决的办法也很简单，就是用setTimeout,让uplodify的初始化和浏览器缓存模块的功能不要在同时进行，操作如下：
 
-      $(function(){
-      setTimeout(function(){
+        $(function(){
+        setTimeout(function(){
           $('#file_upload').uploadify({
               'swf'      : 'tools/uploadify/uploadify.swf',
               'uploader' : 'upload.php',
@@ -78,6 +80,6 @@ categories:
 
               }
           });
-      },10);
-      });
+        },10);
+        });
            
